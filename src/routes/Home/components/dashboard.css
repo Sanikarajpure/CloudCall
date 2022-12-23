@@ -1,0 +1,26 @@
+
+.createRoomButton{
+transition: all ease-in 200ms;
+    
+ }
+.createRoomButton:hover{
+   background-color: #beb7b7; 
+   
+}
+
+.resizeRoomButton{
+    transition: all ease-in 200ms;
+}
+.resizeRoomButton:hover{
+    background-color: #beb7b7; 
+}
+
+
+.closeRoomButton{
+    transition: all ease-in 200ms;
+}
+
+.closeRoomButton:hover{
+    background-color: #FF0000; 
+    
+ }
