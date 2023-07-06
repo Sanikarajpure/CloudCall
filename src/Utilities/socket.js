@@ -11,7 +11,7 @@ import {
   set_online_users,
 } from "../Actions/friendsAction";
 const L_URL = "http://localhost:3002";
-const P_URL = "https://offdutyninjas.site";
+const P_URL = "https://offdutyninjas.pro";
 
 let socket = null;
 export const connectWithSocketServer = async (user, chat) => {
@@ -25,7 +25,7 @@ export const connectWithSocketServer = async (user, chat) => {
       token: token,
     },
   };
-  socket = io(L_URL, options);
+  socket = io(P_URL, options);
 
   // Listening for invitation event
   socket.on(ACTIONS.FRIEND_INVITATION, async (data) => {
