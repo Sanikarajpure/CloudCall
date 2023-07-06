@@ -25,7 +25,7 @@ const DropDownMenu = () => {
     console.log("btn clicked");
     userSignOut();
     dispatch(signout_user());
-    navigate("/login");
+    navigate("/");
   };
 
   const handleAudioOnlyChange = () => {

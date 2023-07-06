@@ -245,7 +245,7 @@ const RegisterForm = () => {
               <div
                 className="goToLoginLink px-1 text-light-call-sec"
                 onClick={() => {
-                  navigate("/login");
+                  navigate("/");
                 }}
               >
                 Login

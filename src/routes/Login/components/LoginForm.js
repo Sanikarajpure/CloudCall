@@ -54,9 +54,7 @@ const LoginForm = () => {
             onSubmit={handleSubmit(onSubmit)}
           >
             <div className="LoginTitle text-center  font-extrabold pb-6">
-              <span className="text-light-call-sec dark:text-light-accent">
-                Workspace
-              </span>{" "}
+              <span className="text-light-call-sec dark:text-light-accent"></span>{" "}
               <span className="text-dark-accent dark:text-light-call-sec">
                 Login
               </span>
@@ -70,7 +68,7 @@ const LoginForm = () => {
               </label>
               <input
                 className=" 
-                rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
+                  rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="email"
                 type="text"
                 placeholder="Email"
@@ -95,7 +93,7 @@ const LoginForm = () => {
               </label>
               <input
                 className="appearance-none transition-border-color duration-200  border 
-                rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
+                  rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="password"
                 type="password"
                 placeholder="Password"
@@ -145,7 +143,7 @@ const LoginForm = () => {
             </span>
           </div>
           <p className="text-center text-gray-500 text-xs mt-4 dark-accent dark:text-light-accent">
-            &copy;2021 Code Collab Corp. All rights reserved.
+            &copy;2021 Cloud Call Corp. All rights reserved.
           </p>
         </div>
       </div>
