@@ -35,7 +35,7 @@ const RegisterForm = () => {
         if (response) {
           dispatch(register_user(response));
           setLoader(false);
-          navigate("/login");
+          navigate("/");
         }
       }
     } catch (err) {
