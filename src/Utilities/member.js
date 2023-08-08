@@ -21,7 +21,8 @@ const Member = ({
 
       {isName ? (
         <div
-          className={`userNameBlock ${textprop} text-center px-2 font-semibold dark:text-light-accent`}
+          className={`userNameBlock ${textprop} text-center px-2 font-semibold
+           dark:text-light-accent`}
         >
           {firstName}
         </div>

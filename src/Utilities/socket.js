@@ -25,13 +25,13 @@ export const connectWithSocketServer = async (user, chat) => {
       token: token,
     },
   };
-  socket = io(P_URL, options);
+  socket = io(L_URL, options);
 
   // Listening for invitation event
   socket.on(ACTIONS.FRIEND_INVITATION, async (data) => {
     console.log("invitation received");
     const { pendingInvitations } = data;
-
+    console.log(pendingInvitations);
     if (pendingInvitations) {
       store.dispatch(set_pending_friend_invitations(pendingInvitations));
     }

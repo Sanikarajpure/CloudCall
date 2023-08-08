@@ -56,9 +56,9 @@ const RegisterForm = () => {
             onSubmit={handleSubmit(onSubmit)}
           >
             <div className="pb-6 text-center text-2xl font-extrabold text-dark-accent dark:text-light-call-sec ">
-              <div>Hi, there!</div>
+              <div>Hello! ✋ </div>
               <div>
-                Let's get you{" "}
+                Let's get{" "}
                 <span className=" text-light-call-sec dark:text-light-accent">
                   started.
                 </span>
@@ -73,7 +73,7 @@ const RegisterForm = () => {
                   First Name
                 </label>
                 <input
-                  className=" appearance-none transition-border-color duration-200  border 
+                  className=" appearance-none transition-border-color duration-200  border bg-light-hover
                   rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3  text-light-text-small text-sm font-semibold focus:outline-none"
                   id="firstname"
                   name="firstname"
@@ -98,7 +98,7 @@ const RegisterForm = () => {
                   Last Name
                 </label>
                 <input
-                  className=" appearance-none transition-border-color duration-200  border 
+                  className=" appearance-none transition-border-color duration-200  border bg-light-hover
                   rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3  text-light-text-small text-sm font-semibold focus:outline-none"
                   id="lastname"
                   name="lastname"
@@ -117,32 +117,6 @@ const RegisterForm = () => {
               </div>
             </div>
 
-            <div className="mb-4 ">
-              <label
-                className="block dark-accent dark:text-light-accent text-sm font-bold mb-2"
-                htmlFor="phone"
-              >
-                Contact number
-              </label>
-              <input
-                className=" appearance-none transition-border-color duration-200  border 
-                rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
-                id="phone"
-                name="phone"
-                type="text"
-                placeholder="Contact number"
-                {...register("phone")}
-              />{" "}
-              {
-                <div
-                  className="invalid-feedback  text-output-error text-xs px-2 pt-1"
-                  style={errors.phone ? { display: "block" } : {}}
-                >
-                  {errors.phone?.message}
-                </div>
-              }
-            </div>
-
             <div className="mb-4">
               <label
                 className="block dark-accent dark:text-light-accent text-sm font-bold mb-2"
@@ -151,7 +125,7 @@ const RegisterForm = () => {
                 Email
               </label>
               <input
-                className=" appearance-none transition-border-color duration-200  border 
+                className=" appearance-none transition-border-color duration-200  border bg-light-hover
                 rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="email"
                 name="email"
@@ -176,7 +150,7 @@ const RegisterForm = () => {
                 Password
               </label>
               <input
-                className=" appearance-none transition-border-color duration-200  border 
+                className=" appearance-none transition-border-color duration-200  border bg-light-hover
                 rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="password"
                 name="password"
@@ -201,7 +175,7 @@ const RegisterForm = () => {
                 Confirm Password
               </label>
               <input
-                className=" appearance-none transition-border-color duration-200  border 
+                className=" appearance-none transition-border-color duration-200  border bg-light-hover
                 rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="confirmpassword"
                 name="confirmpassword"

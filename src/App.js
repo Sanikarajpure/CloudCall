@@ -15,7 +15,7 @@ function App() {
   const { theme } = React.useContext(ThemeContext);
   return (
     <>
-      <div className="bg-white dark:bg-dark-bg min-h-screen">
+      <div className="bg-light-hover dark:bg-dark-bg min-h-screen">
         <div className="  absolute right-12 top-0 p-2 ">
           <Toggle />
           <Toaster

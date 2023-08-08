@@ -68,7 +68,8 @@ const LoginForm = () => {
               </label>
               <input
                 className="appearance-none transition-border-color duration-200  border 
-                rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
+                rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent bg-light-hover
+                 dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="email"
                 type="text"
                 placeholder="Email"
@@ -93,7 +94,8 @@ const LoginForm = () => {
               </label>
               <input
                 className="appearance-none transition-border-color duration-200  border 
-                  rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
+                  rounded border-light-accent focus:border-light-call-sec  dark:border-dark-accent bg-light-hover
+                   dark:bg-dark-bg dark:focus:border-white w-full py-2 px-3 text-light-text-small text-sm font-semibold focus:outline-none"
                 id="password"
                 type="password"
                 placeholder="Password"

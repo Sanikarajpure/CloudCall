@@ -56,7 +56,7 @@ const PendingInvitationListItem = ({ id, username, mail }) => {
      px-2 rounded-md"
       >
         <Box>
-          <Member firstName={username} />
+          <Member firstName={username} size={35} flexprop={"flex-row"} />
         </Box>
         <InvitationDecisionButtons
           disabled={buttonDisables}
